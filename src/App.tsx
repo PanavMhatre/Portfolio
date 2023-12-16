@@ -2,7 +2,7 @@ import "./App.css"; // Import the CSS file
 // import Footer from "./components/Footer";
 // import NavBar from "./components/NavBar";
 // import About from "./screen/About";
-import Projects from "./screen/Projects";
+import Portfolio from "./screen/Portfolio";
 export default function App() {
   return (
     // <div className="portfolio-container">
@@ -115,6 +115,6 @@ export default function App() {
     //   </section>
     //   <Footer></Footer>
     // </div>
-    <Projects></Projects>
+    <Portfolio></Portfolio>
   );
 }

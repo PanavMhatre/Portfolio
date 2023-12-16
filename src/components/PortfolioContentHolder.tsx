@@ -13,14 +13,14 @@ function PortfolioContentHolder(props: PortfolioContentHolderProps) {
     const { textHeader, assignment, learned, improve, iframeComponent } = props;
 
     return (
-        <div className="mb-5">
+        <div className="text-center mb-5">
             <Card>
                 <CardBody>
-                    <h2 className="text-4xl font-bold dark:text-white mb-5">{textHeader}</h2>
-                    {iframeComponent} {/* Render the iframeComponent prop */}
-                    <h5 className="text-xl text-gray-500 font-normal dark:text-white mt-5 mb-2"><span className="font-bold">Assignment: </span>{assignment}</h5>
+                    <h2 className="text-5xl font-bold dark:text-white mb-5 mx-auto">{textHeader}</h2> {/* Updated font size to text-5xl */}
+                    <div className="mx-auto">{iframeComponent}</div>
+                    <h5 className="text-xl text-gray-500 font-normal dark:text-white mt-10 mb-2"><span className="font-bold">Assignment: </span>{assignment}</h5>
                     <h5 className="text-xl text-gray-500 font-normal dark:text-white mb-2"><span className="font-bold">What I Learned: </span>{learned}</h5>
-                    <h5 className="text-xl text-gray-500 font-normal dark:text-white mb-2"><span className="font-bold">What I Need To Improve On: </span>{improve}</h5>
+                    <h5 className="text-xl text-gray-500 font-normal dark:text-white "><span className="font-bold">What I Need To Improve On: </span>{improve}</h5>
                 </CardBody>
             </Card>
         </div>
