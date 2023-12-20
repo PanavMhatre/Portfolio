@@ -13,7 +13,7 @@ function PortfolioContentHolder(props: PortfolioContentHolderProps) {
     const { textHeader, assignment, learned, improve, iframeComponent } = props;
 
     return (
-        <div className="text-center mb-5">
+        <div className="text-center mb-5" style={{ marginLeft: "70px", marginRight: "70px" }}>
             <Card>
                 <CardBody>
                     <h2 className="text-5xl font-bold dark:text-white mb-5 mx-auto">{textHeader}</h2> {/* Updated font size to text-5xl */}
