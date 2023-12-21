@@ -2,19 +2,17 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
 function Home() {
-    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
     return (
-        <div className={prefersDarkMode ? 'dark' : ''}>
+        <div>
             <div className="portfolio-container">
                 <NavBar></NavBar>
-                <section className={`bg-white ${prefersDarkMode ? 'dark:bg-gray-900' : ''}`}>
+                <section className="bg-white">
                     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                         <div className="mr-auto place-self-center lg:col-span-7">
-                            <h1 className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ${prefersDarkMode ? 'dark:text-white' : ''}`}>
+                            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                                 Hi, my name is Panav 👋
                             </h1>
-                            <p className={`max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ${prefersDarkMode ? 'dark:text-gray-400' : ''}`}>
+                            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
                                 I have a strong enthusiasm for creating innovative algorithms and
                                 programs, driven by a deep passion for the fields of AI, Robotics,
                                 and Computer Science.
@@ -89,7 +87,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className={`bg-white ${prefersDarkMode ? 'dark:bg-gray-900' : ''}`}>
+                <section className="bg-white">
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                         <div>
                             <img

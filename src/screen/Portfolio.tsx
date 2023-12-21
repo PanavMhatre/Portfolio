@@ -1,7 +1,7 @@
-import React from "react";
 import { Tab, Tabs } from "@nextui-org/react";
 import NavBar from "../components/NavBar";
 import PortfolioContentHolder from "../components/PortfolioContentHolder";
+import Footer from "../components/Footer";
 
 function Portfolio() {
   return (
@@ -171,6 +171,7 @@ function Portfolio() {
           <Tab key="DE" title="Digital Electronics"></Tab>
         </Tabs>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
