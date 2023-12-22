@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import goFit from "../assets/gofit.png";
+import goFit from "../assets/GoFit.png";
 import Footer from "../components/Footer";
 import learnX from "../assets/learnX.png";
 
