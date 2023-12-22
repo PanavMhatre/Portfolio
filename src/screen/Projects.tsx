@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import goFit from "../assets/GoFit.png";
 import Footer from "../components/Footer";
-import learnX from "../assets/learnX.png";
+import learnX from "../assets/LearnX.png";
 
 function Projects() {
   return (
