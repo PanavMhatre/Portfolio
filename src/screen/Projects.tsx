@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import goFit from "../assets/gofit.png";
 import Footer from "../components/Footer";
+import learnX from "../assets/learnX.png";
 
 function Projects() {
   return (
@@ -46,7 +47,7 @@ function Projects() {
         <div className="w-full max-w-screen-lg mt-10">
           <div className="card bg-base-200 shadow-xl flex-row">
             <figure className="inline flex p-5 w-60 pr-0">
-              <img src="" alt="Shoes" className="rounded-xl" />
+              <img src={learnX} alt="Shoes" className="rounded-xl" />
             </figure>
             <div className="card-body">
               <div className="flex items-center mb-2">

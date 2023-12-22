@@ -1,6 +1,3 @@
-
-import React from 'react';
-
 function NavBar() {
   return (
     <div className={`flex justify-center mt-5`}>
