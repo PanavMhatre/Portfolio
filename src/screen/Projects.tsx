@@ -8,11 +8,11 @@ function Projects() {
     <div>
       <NavBar />
       <h1
-        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ml-52`}
+        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ml-52 animate-fade-up`}
       >
         Projects
       </h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center animate-fade-up">
         <div className="w-full max-w-screen-lg mt-10">
           <div className="card bg-base-200 shadow-xl flex-row">
             <figure className="inline flex p-5 w-60 pr-0">
@@ -43,7 +43,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center animate-fade-up">
         <div className="w-full max-w-screen-lg mt-10">
           <div className="card bg-base-200 shadow-xl flex-row">
             <figure className="inline flex p-5 w-60 pr-0">
@@ -74,7 +74,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center animate-fade-up">
         <div className="w-full max-w-screen-lg mt-10">
           <div className="card bg-base-200 shadow-xl flex-row">
             <figure className="inline flex p-5 w-60 pr-0">
@@ -106,11 +106,11 @@ function Projects() {
         </div>
       </div>
       <h1
-        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mt-10 ml-52`}
+        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mt-10 ml-52 animate-fade-up`}
       >
         Research
       </h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center animate-fade-up">
         <div className="w-full max-w-screen-lg mt-10">
           <div className="card bg-base-200 shadow-xl flex-row">
             <figure className="inline flex p-5 w-60 pr-0">

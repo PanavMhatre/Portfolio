@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <div>
       <NavBar></NavBar>
-      <div className="block justify-center mt-5 mb-5">
+      <div className="block justify-center mt-5 mb-5 animate-fade-up">
         <Tabs aria-label="Options" className=" w-full justify-center mb-5">
           <Tab key="IED" title="Intro to Engineering">
             <div className="justify-center">
