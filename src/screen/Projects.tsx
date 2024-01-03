@@ -82,6 +82,37 @@ function Projects() {
             </figure>
             <div className="card-body">
               <div className="flex items-center mb-2">
+                <h1 className="mr-5 text-2xl font-bold">Spot Robotics Podcast</h1>
+                <div className="relative grid select-none items-center whitespace-nowrap rounded-lg bg-gray-900 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white mr-2">
+                  <span className="">Podcast</span>
+                </div>
+                <div className="relative grid select-none items-center whitespace-nowrap rounded-lg bg-gray-900 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white mr-2">
+                  <span className="">Speaking</span>
+                </div>
+                <div className="relative grid select-none items-center whitespace-nowrap rounded-lg bg-gray-900 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white mr-2">
+                  <span className="">Technology</span>
+                </div>
+                <div className="relative grid select-none items-center whitespace-nowrap rounded-lg bg-gray-900 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white">
+                  <span className="">Business</span>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse bibendum. Nunc non posuere consectetur, justo erat
+                semper enim, non hendrerit dui odio id enim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center animate-fade-up">
+        <div className="w-full max-w-screen-lg mt-10">
+          <div className="card bg-base-200 shadow-xl flex-row">
+            <figure className="inline flex p-5 w-60 pr-0">
+              <img src="" alt="Shoes" className="rounded-xl" />
+            </figure>
+            <div className="card-body">
+              <div className="flex items-center mb-2">
                 <h1 className="mr-5 text-2xl font-bold">Tech Thinkers</h1>
                 <div className="relative grid select-none items-center whitespace-nowrap rounded-lg bg-gray-900 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white mr-2">
                   <span className="">Web Design</span>
