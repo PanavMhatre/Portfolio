@@ -7,12 +7,12 @@ function NavBar() {
   return (
 
 
-    <div className="mt-5 mb-5 mx-auto max-w-7xl">
+    <div className="mt-5 mb-5 mx-auto max-w-7xl dark:bg-gray-800 ">
       <nav className="bg-white dark:bg-gray-800   ">
         <div className="px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="w-full justify-between flex items-center">
-              <div className="avatar">
+          <div className="flex items-center justify-between h-16 ">
+            <div className="w-full justify-between flex items-center" >
+              <div className="avatar ">
                 <div className="w-12 h-12 rounded-full ml-25" >
                   <a href="/"><img src={Panav}  /></a>
                 </div>
