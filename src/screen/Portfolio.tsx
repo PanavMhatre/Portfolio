@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="bg-white">
       <NavBar></NavBar>
       <div className="block justify-center mt-5 mb-5 animate-fade-up">
         <Tabs aria-label="Options" className=" w-full justify-center mb-5">

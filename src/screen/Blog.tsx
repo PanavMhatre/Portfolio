@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 
 function Blog() {
     return (
-        <div>
+        <div className="bg-white">
             <NavBar></NavBar>
             
             <Footer></Footer>

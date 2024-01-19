@@ -5,10 +5,10 @@ import learnX from "../assets/LearnX.png";
 
 function Projects() {
   return (
-    <div>
+    <div className="bg-white">
       <NavBar />
       <h1
-        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ml-52 animate-fade-up`}
+        className={`max-w-2xl mb-4 text-4xl font-extrabold text-black  md:text-5xl xl:text-6xl ml-52 animate-fade-up`}
       >
         Projects
       </h1>
@@ -137,7 +137,7 @@ function Projects() {
         </div>
       </div>
       <h1
-        className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mt-10 ml-52 animate-fade-up`}
+        className={` text-black max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mt-10 ml-52 animate-fade-up`}
       >
         Research
       </h1>

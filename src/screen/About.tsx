@@ -5,13 +5,13 @@ import PanavImage from "../assets/PanavSquare.png";
 import Footer from "../components/Footer";
 function About() {
     return (
-        <div className="w-full">
+        <div className="w-full bg-white">
             <NavBar></NavBar>
             <div style={{display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <section className="bg-white animate-fade-up">
                     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                         <div className="mr-auto lg:col-span-7">
-                            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+                            <h1 className="text-black max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                                 About Me
                             </h1>
                             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
@@ -34,6 +34,7 @@ function About() {
                                     showAnchorIcon
                                     size="lg"
                                     className="mt-10 flex"
+                                    color="foreground"
                                 >
                                     Follow on Twitter
                                 </Link>
@@ -43,6 +44,7 @@ function About() {
                                     showAnchorIcon
                                     size="lg"
                                     className="mt-4 flex"
+                                    color="foreground"
                                 >
                                     Follow on Github
                                 </Link>
@@ -52,6 +54,7 @@ function About() {
                                     showAnchorIcon
                                     size="lg"
                                     className="mt-4 flex"
+                                    color="foreground"
                                 >
                                     Follow on LinkedIn
                                 </Link>
@@ -61,6 +64,7 @@ function About() {
                                     showAnchorIcon
                                     size="lg"
                                     className="mt-4"
+                                    color="foreground"
                                 >
                                     Follow on Instagram
                                 </Link>

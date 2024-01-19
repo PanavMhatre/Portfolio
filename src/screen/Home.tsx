@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 
 function Home() {
     return (
-        <div>
+        <div className='bg-white'>
             <div className="portfolio-container animate-fade-up">
                 <NavBar></NavBar>
                 <section className="bg-white">
@@ -31,7 +31,7 @@ function Home() {
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                         <div>
                             <img
-                                className="h-auto max-w-full rounded-lg rotate-3"
+                                className="h-60 w-90 rounded-lg rotate-3"
                                 src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
                                 alt=""
                             />

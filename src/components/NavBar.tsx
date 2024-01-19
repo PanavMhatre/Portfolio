@@ -5,10 +5,8 @@ function NavBar() {
 
   const location = useLocation();
   return (
-
-
-    <div className="mt-5 mb-5 mx-auto max-w-7xl dark:bg-gray-800 ">
-      <nav className="bg-white dark:bg-gray-800   ">
+    <div className=" pt-5 mb-5 mx-auto max-w-7xl bg-white">
+      <nav className="bg-white  ">
         <div className="px-8">
           <div className="flex items-center justify-between h-16 ">
             <div className="w-full justify-between flex items-center" >
@@ -20,8 +18,8 @@ function NavBar() {
               <div className="hidden md:block mr-20">
                 <div className="flex items-baseline ml-10 space-x-4">
                 <a
-              className={`text-gray-300 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium ${
-                location.pathname === "/about/" ? "text-gray-800 dark:text-white" : ""
+              className={`text-gray-300 hover:text-gray-800  px-3 py-2 rounded-md text-md font-medium ${
+                location.pathname === "/about/" ? "text-gray-800 " : ""
               }`}
               href="/about/"
             >

@@ -7,13 +7,15 @@ import Projects from "./screen/Projects";
 
 function App() {
   return (
-      <Routes>
+      <div className="bg-white">
+        <Routes>
         <Route path="/" element = {<Home />} />
         <Route path="/about/" element= {<About />}/> 
         <Route path="/portfolio/" element = {<Portfolio />}/> 
         <Route path="/blog/" element = {<Blog />}/> 
         <Route path="/projects/" element = {<Projects />}/> 
       </Routes>
+      </div>
   );
 }
 
